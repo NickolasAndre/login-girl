@@ -26,22 +26,24 @@
         <!--img garota-->
         <img src="imgs/garota.png" alt="garota de bicicleta" class="garota">
 
-        <div class="login">
-            <h2>Entrar</h2>
-            <div class="inputBox">
-                <input type="text" placeholder="Seu Nome">
+        <form action="post">
+            <div class="login">
+                <h2>Entrar</h2>
+                <div class="inputBox">
+                    <input type="text" placeholder="Seu Nome" required>
+                </div>
+                <div class="inputBox">
+                    <input type="password" placeholder="Senha" required minlength="6" maxlength="16">
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Entrar" id="btn">
+                </div>
+                <div class="grupo">
+                    <a href="#">Esqueceu a senha</a>
+                    <a href="#">Inscrever-se</a>
+                </div>
             </div>
-            <div class="inputBox">
-                <input type="password" placeholder="Senha">
-            </div>
-            <div class="inputBox">
-                <input type="submit" value="Entrar" id="btn">
-            </div>
-            <div class="grupo">
-                <a href="#">Esqueceu a senha</a>
-                <a href="#">Inscrever-se</a>
-            </div>
-        </div>
+        </form>
 
         <!--img árvore-->
         <img src="imgs/arvore.png" alt="arvores" class="arvore">
